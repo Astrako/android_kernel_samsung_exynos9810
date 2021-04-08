@@ -390,6 +390,12 @@ CONFIG_ARCH_EXYNOS9=y
 # CONFIG_ZONE_MOVABLE is not set
 
 #
+# Exynos dtbo image build tool
+#
+CONFIG_MACH_EXYNOS9810_R7_GLOBAL=y
+CONFIG_EXYNOS_DTBTOOL=y
+
+#
 # Bus support
 #
 CONFIG_PCI=y
